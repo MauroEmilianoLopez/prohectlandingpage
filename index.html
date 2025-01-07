@@ -4,91 +4,91 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bienvenido a la página de Emiliano Mauro López</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <div class="container">
+    <main>
       <header class="header">
-        <h1 id="title">¡Hola, soy Emiliano Mauro López!</h1>
-        <p id="intro">Programador Junior | Apasionado por la web</p>
-        <button id="language-toggle-btn">Cambiar a Inglés</button>
+        <h1 class="header-title">¡Hola, soy Emiliano Mauro López!</h1>
+        <p class="header-text">Programador Junior | Apasionado por la web</p>
+        <form class="header-form">
+          <input type="radio" name="lang" id="es" value="es" checked />
+          <label for="es">Español</label>
+          <input type="radio" name="lang" id="en" value="en" />
+          <label for="en">English</label>
+        </form>
       </header>
-
-      <main>
-        <section class="about-me">
-          <h2 id="about-title">¿Quién soy?</h2>
-          <div class="profile-photo">
-            <img
-              src="perfil_linkedin.jpg"
-              alt="Foto de Emiliano"
-              id="profile-image"
-            />
-          </div>
-          <p id="about-description">
-            Hola, soy Emiliano Mauro López, un programador web apasionado por la
-            creación de soluciones innovadoras. Me encanta aprender nuevas
-            tecnologías y resolver problemas a través de la programación.
-          </p>
-        </section>
-
-        <section class="skills">
-          <h2 id="skills-title">Habilidades</h2>
-          <ul id="skills-list">
-            <li>HTML, CSS, JavaScript,Python</li>
-            <li>Control de versiones con Git</li>
-            <li>Desarrollo front-end y back-end</li>
-            <li>Conocimiento en frameworks como React.js y Node.js</li>
-            <li>Comprensión de bases de datos SQL y NoSQL</li>
-            <li>Trabajo con APIs RESTful</li>
-            <li>Pruebas de software y depuración</li>
-          </ul>
-        </section>
-
-        <section class="contact-info">
-          <h2 id="contact-title">Contáctame</h2>
-          <p id="contact-description">
-            Estoy disponible para colaborar en proyectos emocionantes. Puedes
-            contactarme a través de los siguientes medios:
-          </p>
-          <ul>
-            <li>
-              <a href="tel:+5492664195054" id="contact-phone"
-                >Whatsapp: +5492664195054</a
-              >
-            </li>
-            <li>
-              <a href="mailto:mauroemiliano2@gmail.com" id="contact-email"
-                >Enviar un email: mauroemiliano2@gmail.com</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/emiliano-mauro-mauro-l%C3%B3pez-117769192/"
-                target="_blank"
-                id="contact-linkedin"
-                >Mi perfil de LinkedIn</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://github.com/MauroEmilianoLopez/vidayluz"
-                target="_blank"
-                id="contact-github"
-                >Mi perfil de GitHub</a
-              >
-            </li>
-          </ul>
-        </section>
-      </main>
-
-      <footer>
-        <p>
-          &copy; 2025 Emiliano Mauro López | Gracias por tomarte el tiempo de
-          visitarme.
+      <article class="about">
+        <h2 class="about-title">¿Quién soy?</h2>
+        <picture class="about-photo">
+          <img
+            src="assets/perfil_linkedin.jpg"
+            alt="Foto de Emiliano"
+            class="about-image"
+          />
+        </picture>
+        <p class="about-description">
+          Hola, soy Emiliano Mauro López, un programador web apasionado por la
+          creación de soluciones innovadoras. Me encanta aprender nuevas
+          tecnologías y resolver problemas a través de la programación.
         </p>
-      </footer>
-    </div>
+      </article>
 
+      <article class="skills">
+        <h2 class="skills-title">Habilidades</h2>
+        <ul class="skills-list">
+          <li class="skills-item">HTML, CSS,C#, JavaScript,Python</li>
+          <li class="skills-item">Control de versiones con Git</li>
+          <li class="skills-item">Desarrollo front-end y back-end</li>
+          <li class="skills-item">
+            Conocimiento en frameworks como .NET, React.js y Node.js
+          </li>
+          <li class="skills-item">Comprensión de bases de datos SQL y NoSQL</li>
+          <li class="skills-item">Trabajo con APIs RESTful</li>
+          <li class="skills-item">Pruebas de software y depuración</li>
+        </ul>
+      </article>
+
+      <article class="contact">
+        <h2 class="contact-title">Contáctame</h2>
+        <p class="contact-description">
+          Estoy disponible para colaborar en proyectos emocionantes. Puedes
+          contactarme a través de los siguientes medios:
+        </p>
+        <nav class="contact-links">
+          <a href="wa/+5464195054" class="contact-link contact-link-wp">
+            Whatsapp: +5492664195054
+          </a>
+          <a
+            href="mailto:mauroemiliano2@gmail.com"
+            class="contact-link contact-link-email"
+          >
+            Enviar un email: mauroemiliano2@gmail.com
+          </a>
+          <a
+            href="https://www.linkedin.com/in/emiliano-mauro-mauro-l%C3%B3pez-117769192/"
+            target="_blank"
+            class="contact-link contact-link-linkedin"
+          >
+            Mi perfil de LinkedIn
+          </a>
+          <a
+            href="https://github.com/MauroEmilianoLopez/vidayluz"
+            target="_blank"
+            class="contact-link contact-link-github"
+          >
+            Mi perfil de GitHub
+          </a>
+        </nav>
+      </article>
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2025 Emiliano Mauro López | Gracias por tomarte el tiempo de
+        visitarme.
+      </p>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>

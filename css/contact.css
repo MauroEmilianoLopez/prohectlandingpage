@@ -1,0 +1,39 @@
+.contact {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  font-family: sans-serif;
+}
+
+.contact-title {
+  font-size: 2rem;
+  color: #6a0dad;
+}
+.contact-description {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #6a0dad;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-info li {
+  margin: 10px 0;
+}
+
+.contact-link {
+  font-size: 1.2rem;
+  color: #6a0dad;
+  text-decoration: none;
+  transition: color 0.3s;
+  &:hover {
+    color: #5c0ba0;
+  }
+}

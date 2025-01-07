@@ -1,0 +1,44 @@
+/* Estilos del encabezado */
+.header {
+  width: 100%;
+  text-align: center;
+  background-color: #6a0dad;
+  padding: 3rem 0;
+  border-radius: 0.75rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.header-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  color: snow;
+}
+
+.header-text {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+  color: snow;
+}
+
+.header-form {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  & input[type="radio"] {
+    display: none;
+  }
+  & label {
+    border: 0.05rem solid snow;
+    background-color: #4b0a8d;
+    padding: 0.25rem 0.75rem;
+    color: snow;
+    cursor: pointer;
+    border-radius: 1rem;
+    transition: all 300ms ease-in-out;
+  }
+  & input[type="radio"]:checked + label {
+    border-color: transparent;
+    background-color: snow;
+    color: #6a0dad;
+  }
+}
