@@ -1,0 +1,63 @@
+[
+  {
+    "selector": ".header-title",
+    "content": "¡Hola, soy Emiliano Mauro López!"
+  },
+  {
+    "selector": ".header-text",
+    "content": "Programador Junior | Apasionado por la web"
+  },
+  { "selector": ".about-title", "content": "¿Quién soy?" },
+  {
+    "selector": ".about-description",
+    "content": "Hola, soy Emiliano Mauro López, un programador web apasionado por la creación de soluciones innovadoras. Me encanta aprender nuevas tecnologías y resolver problemas a través de la programación."
+  },
+  { "selector": ".skills-title", "content": "Habilidades" },
+  {
+    "selector": ".skills-item:nth-child(1)",
+    "content": "HTML, CSS,C#, JavaScript,Python"
+  },
+  {
+    "selector": ".skills-item:nth-child(2)",
+    "content": "Control de versiones con Git"
+  },
+  {
+    "selector": ".skills-item:nth-child(3)",
+    "content": "Desarrollo front-end y back-end"
+  },
+  {
+    "selector": ".skills-item:nth-child(4)",
+    "content": "Conocimiento en frameworks como .NET, React.js y Node.js"
+  },
+  {
+    "selector": ".skills-item:nth-child(5)",
+    "content": "Comprensión de base de datos SQL y NoSQL"
+  },
+  {
+    "selector": ".skills-item:nth-child(6)",
+    "content": "Trabajo con APIs RESTful"
+  },
+  {
+    "selector": ".skills-item:nth-child(7)",
+    "content": "Pruebas de software y depuración"
+  },
+  { "selector": ".contact-title", "content": "Contáctame" },
+  {
+    "selector": ".contact-description",
+    "content": "Estoy disponible para colaborar en proyectos emocionantes. Puedes conectarme a través de los siguientes medios:"
+  },
+  {
+    "selector": ".contact-link-wp",
+    "content": "Whatsapp: +5492664195054"
+  },
+  {
+    "selector": ".contact-link-email",
+    "content": "Enviar un mail: mauroemiliano2@gmail.com"
+  },
+  { "selector": ".contact-link-linkedin", "content": "Mi perfil de Linkedin" },
+  { "selector": ".contact-link-github", "content": "Mi perful de GitHub" },
+  {
+    "selector": ".footer-copy",
+    "content": "© 2025 Emiliano Mauro Lopez | Gracias por tomarte el tiempo de visitarme."
+  }
+]

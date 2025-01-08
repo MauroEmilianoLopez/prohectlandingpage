@@ -1,0 +1,60 @@
+[
+  { "selector": ".header-title", "content": "Hello, I'm Mauro!" },
+  {
+    "selector": ".header-text",
+    "content": "Junior Developer | Web Enthusiast"
+  },
+  { "selector": ".about-title", "content": "Who am I" },
+  {
+    "selector": ".about-description",
+    "content": "Hello, I am Emiliano Mauro López, a web programmer passionate about creating innovative solutions. I love learning new technologies and solving problems through programming."
+  },
+  { "selector": ".skills-title", "content": "Skills" },
+  {
+    "selector": ".skills-item:nth-child(1)",
+    "content": "HTML, CSS, JavaScript"
+  },
+  {
+    "selector": ".skills-item:nth-child(2)",
+    "content": "Version control with Git"
+  },
+  {
+    "selector": ".skills-item:nth-child(3)",
+    "content": "Basic front-end and back-end development"
+  },
+  {
+    "selector": ".skills-item:nth-child(4)",
+    "content": "Knowledge of frameworks like React.js and Node.js"
+  },
+  {
+    "selector": ".skills-item:nth-child(5)",
+    "content": "Understanding of SQL and NoSQL databases"
+  },
+  {
+    "selector": ".skills-item:nth-child(6)",
+    "content": "Working with RESTful APIs"
+  },
+  {
+    "selector": ".skills-item:nth-child(7)",
+    "content": "Software testing and debugging"
+  },
+  { "selector": ".contact-title", "content": "Contact Me" },
+  {
+    "selector": ".contact-description",
+    "content": "I'm available to collaborate on exciting projects. You can contact me through the following channels:"
+  },
+  {
+    "selector": ".contact-link-wp",
+    "content": "Call my mobile: +5492664195054"
+  },
+  {
+    "selector": ".contact-link-email",
+    "content": "Send an email: mauroemiliano2@gmail.com"
+  },
+  { "selector": ".contact-link-linkedin", "content": "My LinkedIn profile" },
+  { "selector": ".contact-link-github", "content": "My GitHub profile" },
+  {
+    "selector": ".footer-copy",
+    "content": "© 2025 Mauro | Thanks for your time to visit"
+  }
+]
